@@ -1,0 +1,136 @@
+body{
+    background: rgb(221, 197, 197);
+}
+/* ************************************************************ */
+/* HEADER */
+/* ************************************************************ */
+header{
+    /* flex */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+h2{
+    font-size: 13px;
+    margin: 0px auto 10px auto;
+    font-weight: 300;
+}
+.M{
+    max-width: 150px;
+    margin: 20px;
+}
+
+/* Txt header */
+header>a:not(.logo){
+    display: initial;
+}
+.burger{
+    display: none;
+}
+
+/* box header */
+/* logo */
+
+.S{
+   height: 70px;
+    margin: 20px 40px 0px 40px;
+    padding: 3px; 
+}
+
+.hilight{
+    background: linear-gradient(cyan, blue);
+}
+
+/* ************************************************************ */
+/* NAV */
+/* ************************************************************ */
+nav{
+    display: none;
+}
+/* ************************************************************ */
+/* EQUIPE */
+/* ************************************************************ */
+.equipe>div{
+    margin: 0px 20px 0px 20px; 
+    text-align: left;
+    grid-template-columns: auto auto;
+}
+
+.equipe>div:nth-child(2n){
+    text-align: right;
+}
+.equipe>div>img{
+    max-width: 100%;
+}
+.equipe>div>div>img{
+    max-width: 50%;
+}
+
+.desktop{
+    display: initial;
+}
+.mobil{
+    display: none;
+}
+/* ************************************************************ */
+
+
+/* ************************************************************ */
+/* SPECTACLES */
+/* ************************************************************ */
+.txt{
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: left;
+    align-items: center;
+}
+.txt>img{
+    max-width: 100%;
+    padding: 90px;
+    margin: auto;
+}
+.txt>div{
+   margin: 30px;
+}
+/* ************************************************************ */
+
+
+
+/* ************************************************************ */
+/* SPECTACLES */
+/* ************************************************************ */
+.postit{
+    background-color: rgb(255, 183, 88);
+    padding: 20px;
+    text-align: center;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.285);
+}
+/* ************************************************************ */
+
+
+
+/* ************************************************************ */
+/* SPECTACLES */
+/* ************************************************************ */
+.contact>div{
+    text-align: left;
+    background: rgba(0, 0, 0, 0.762);
+    width: 40vw;
+    margin: 30px;
+}
+.contact{
+    background: black;
+    background-image: url(../img/back_cont.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 300px;
+    height: 100vh;
+    margin: 0px;
+    padding-top: 150px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+/* ************************************************************ */

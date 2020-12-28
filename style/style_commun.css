@@ -1,0 +1,248 @@
+body{
+    background: black;
+    margin: 0px;
+    font-family: "Raleway";
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* ************************************************************ */
+/* HEADER */
+/* ************************************************************ */
+header{
+    /* position */
+    position:fixed; 
+    top: 0;
+    left: 0;
+    width: 100vw; 
+
+    /* flex */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+    /* background */
+   
+    background-color: #2C2C2C;
+    
+
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.551);
+
+}
+
+/* Txt header : NONE Mobile*/
+header>a:not(.not){
+    display: none;
+}
+
+
+/* logo */
+.logo{
+    /* Border */
+    border-radius: 50%;
+    margin: 10px auto 10px auto;
+    padding: 20px;
+    background: linear-gradient(red, orange);
+    padding: 10px; 
+}
+.M{
+    display: initial;
+    max-width: 20%;
+}
+.logo:hover{
+    background: linear-gradient(rgb(166, 0, 255), red);
+    transition: 0.4s;
+}
+
+.burger{
+    height: 20px;
+    margin: 30px;
+}
+
+
+svg{
+    position: absolute;
+    top: 0;
+}
+/* ************************************************************ */
+
+
+/* ************************************************************ */
+/* NAV */
+/* ************************************************************ */
+nav{
+    background: black;
+    height: 100vh;
+    width: 100vw;
+
+    /* scroll */
+    overflow:scroll;
+
+    /* position */
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+
+    /* transform */
+    transform: translateX(-100vw);
+    transition: 0.2s;
+
+}
+nav::-webkit-scrollbar {
+    display: none;
+}
+
+/* script */
+.open{
+   /* transform */
+   transform: translateX(0px); 
+   transition: 0.4s;
+}
+
+
+/* Liens */
+nav>a>img{
+    height: 80px;
+    width: 80px;
+    margin: 0px;
+
+    /* Border */
+    border-radius: 50%;
+    margin: 20px;
+    background: linear-gradient(red, orange);
+    padding: 3px; 
+}
+nav>a>img:hover{
+    background: linear-gradient(rgb(166, 0, 255), red);
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+nav>a>:hover{
+    color: red;
+    transition: 0.2s;
+    font-weight: 300;
+}
+
+nav>div{
+    margin: 0px;
+    padding: 20px;
+
+    /* Flex */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.separation{
+    padding: 0px;
+    height: 1px;
+    margin: 0px 0px 30px 0px;
+    background: rgb(73, 73, 73);
+}
+.separationL{
+    padding: 0px;
+    height: 1px;
+    margin: 10px 20px 10px 20px;
+    background: rgb(73, 73, 73);
+}
+
+nav>a{
+    display: flex;
+    align-items: center;
+}
+.close{
+    clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    transition: 0.4S;
+}
+
+.close:hover{
+    transform: scale(1);
+    background-color: red;
+    transition: 0.4S;
+}
+
+h2{
+    margin: 0px;
+    font-weight: 200;
+}
+.logo:hover{
+    background: linear-gradient(rgb(166, 0, 255), red);
+    transition: 0.4s;
+}
+/* ************************************************************ */
+
+
+
+/* ************************************************************ */
+/* MAIN */
+/* ************************************************************ */
+
+
+/* Style_Page.css */
+.mainindex{
+    height: 100vh;
+    background: rgba(0, 0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contener{
+    margin: 10%;
+    padding-top: 10%;
+    text-align: center;
+}
+.contener>img{
+    max-width: 50%;
+}
+.contener>p{
+    color: white;
+}
+
+/* ************************************************************ */
+
+
+/* ************************************************************ */
+/* footer */
+/* ************************************************************ */
+footer{
+    background: black;
+    padding: 30px;
+    text-align: center;
+}
+.foot{
+    display: flex;
+    justify-content: center;
+}
+.foot>a{
+    margin: 20px;
+}
+/* ************************************************************ */
+
+
+video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+    background-size: cover;
+    transition: 1s opacity;
+}
+
+
+
+

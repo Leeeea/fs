@@ -1,0 +1,205 @@
+p{
+    color: white;
+}
+
+h3{
+    color: white;
+    font-size: 40px;
+}
+
+h1{
+    color: white;
+}
+/* ************************************************************ */
+/* equipe */
+/* ************************************************************ */
+.equipe{
+    background:black;
+    margin: 0px;
+    height: auto;
+    padding-top: 150px;
+}
+.equipe>div{
+    padding: 20px;
+    margin: 20px 20px 50px 20px; 
+    text-align: center;
+    display: grid;
+    text-align: center;
+    grid-template-columns: auto;
+    align-items: center;
+}
+
+.equipe>div:nth-child(2n){
+    background: #2C2C2C;
+}
+.equipe>div>img{
+    max-width: 70%;
+    margin: auto;
+}
+.equipe>div>div>img{
+    max-width: 40%;
+}
+.equipe>div>div>p{
+   color: white;
+}
+
+.desktop{
+    display: none;
+}
+/* ************************************************************ */
+
+
+/* ************************************************************ */
+/* SPECTACLES */
+/* ************************************************************ */
+.spe{
+    background: black;
+    padding-top: 150px;
+}
+.info{
+    background: #2C2C2C;
+    padding: 50px;
+    text-align: center;
+}
+.txt{
+    display: grid;
+    grid-template-columns: auto;
+    text-align: center;
+}
+.txtspe{
+    color: white;
+}
+.txt>div{
+    background: #2C2C2C;
+    padding: 30px;
+    margin: 20px;
+}
+
+.txt>img{
+    max-width: 70%;
+    padding: 20px;
+    margin: auto;
+}
+
+.dossier{
+    background: black;
+    padding: 14px;
+    border-radius: 20px;
+}
+.dossier:hover{
+    color: black;
+    background: rgb(255, 145, 0);
+    transition: 0.4s;
+}
+/* ************************************************************ */
+
+
+
+/* ************************************************************ */
+/* DATES */
+/* ************************************************************ */
+.postit{
+    background-color: rgb(255, 183, 88);
+    padding: 20px;
+    margin: 0px;
+    width: auto;
+    text-align: center;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.632);
+}
+.postit:hover{
+    background-color: rgb(255, 170, 59);
+    transform: scale(1.03);
+    transition: 0.4s;
+}
+.postit>h3{
+    padding: 0;
+    margin: 0px;
+    color: black;
+    font-size: 20px;
+}
+.datehr{
+    width: 60%;
+    margin: 90px auto 90px auto;
+}
+/* ************************************************************ */
+
+
+
+/* ************************************************************ */
+/* contact */
+/* ************************************************************ */
+.contact{
+    background: black;
+    background-image: url(../img/back_cont.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    height: 100vh;
+    margin: 0px;
+    padding-top: 150px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.contact>div{
+    text-align: left;
+    background: rgba(0, 0, 0, 0.762);
+    width: 90vw;
+    margin: 30px;
+}
+
+input[type="text"]{
+    border: None;
+    height: 40px;
+    width: 100%;
+    border-radius: 20px;
+}
+textarea{
+    border: None;
+    height: 100px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+form>div{
+    display: grid;
+    grid-template-columns: auto;
+    margin: 30px;
+}
+
+form>h2{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 30px;
+    color: white
+}
+
+button{
+    border: none;
+    padding: 10px;
+    margin: 30px;
+    border-radius: 20px;
+}
+label{
+    margin: 10px;
+    color: white;
+}
+/* ************************************************************ */
+
+
+
+/* ************************************************************ */
+/* Mentions */
+/* ************************************************************ */
+.mentions{
+    background-color: black;
+    padding-top: 50px;
+    margin: 30px;
+}
+
+.mentions>h1,h2,h3,p{
+    color: white;
+}
+a{
+    color: orange;
+}
